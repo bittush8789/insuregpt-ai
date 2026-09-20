@@ -1,0 +1,44 @@
+# ============================================================================
+# Example: Standalone Kubernetes ReplicaSet Manifest
+# Note: In production, Deployments manage ReplicaSets automatically to allow rolling updates.
+# ============================================================================
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: insuregpt-standalone-replicaset
+  namespace: insuregpt
+  labels:
+    app: insuregpt-app
+    tier: frontend
+spec:
+  # Guarantee 2 identical Pod replicas running at all times
+  replicas: 2
+  selector:
+    matchLabels:
+      app: insuregpt-app
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        app: insuregpt-app
+        tier: frontend
+    spec:
+      containers:
+        - name: insuregpt-container
+          image: insuregpt:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
+              name: http
+          envFrom:
+            - configMapRef:
+                name: insuregpt-config
+            - secretRef:
+                name: insuregpt-secret
+          resources:
+            requests:
+              cpu: "200m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"

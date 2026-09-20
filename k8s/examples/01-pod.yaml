@@ -1,0 +1,32 @@
+# ============================================================================
+# Example: Standalone Kubernetes Pod Manifest
+# Note: In production, Pods are managed by Deployments rather than created directly.
+# ============================================================================
+apiVersion: v1
+kind: Pod
+metadata:
+  name: insuregpt-standalone-pod
+  namespace: insuregpt
+  labels:
+    app: insuregpt-app
+    tier: frontend
+spec:
+  containers:
+    - name: insuregpt-container
+      image: insuregpt:latest
+      imagePullPolicy: IfNotPresent
+      ports:
+        - containerPort: 8000
+          name: http
+      envFrom:
+        - configMapRef:
+            name: insuregpt-config
+        - secretRef:
+            name: insuregpt-secret
+      resources:
+        requests:
+          cpu: "200m"
+          memory: "256Mi"
+        limits:
+          cpu: "500m"
+          memory: "512Mi"
