@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: insuregpt-config
+  namespace: insuregpt
+  labels:
+    app.kubernetes.io/name: insuregpt
+data:
+  HOST: "0.0.0.0"
+  PORT: "8000"
+  ENVIRONMENT: "production"
+  LOG_LEVEL: "INFO"
+  MYSQL_HOST: "mysql-service"
+  MYSQL_PORT: "3306"
+  MYSQL_DATABASE: "insuregpt"
+  MYSQL_USER: "root"
+  PINECONE_INDEX_NAME: "insuregpt-index"
+  PINECONE_NAMESPACE: "default"
+  LLM_PROVIDER: "groq"
+  GROQ_MODEL: "openai/gpt-oss-120b"
+  OUTPUT_FORMAT: "bullet"
+  EMBEDDING_MODEL: "text-embedding-3-small"
+  RERANKER_MODEL: "BAAI/bge-reranker-base"
+  WEB_SEARCH_ENABLED: "False"

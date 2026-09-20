@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: insuregpt
+  labels:
+    app.kubernetes.io/name: insuregpt
+    app.kubernetes.io/part-of: insuregpt-system

@@ -1,0 +1,13 @@
+# KinD (Kubernetes in Docker) Cluster Configuration for InsureGPT
+# Maps localhost:8000 on the host machine to NodePort 30080 in the KinD node.
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+name: insuregpt-cluster
+nodes:
+  - role: control-plane
+    extraPortMappings:
+      # Map host port 8000 -> container nodePort 30080
+      - containerPort: 30080
+        hostPort: 8000
+        listenAddress: "127.0.0.1"
+        protocol: TCP
