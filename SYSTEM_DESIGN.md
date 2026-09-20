@@ -13,8 +13,12 @@
 2. [Requirements Analysis](#2-requirements-analysis)
    - [2.1 Functional Requirements](#21-functional-requirements)
    - [2.2 Non-Functional Requirements](#22-non-functional-requirements)
-3. [High-Level System Architecture](#3-high-level-system-architecture)
-4. [Component Deep Dive](#4-component-deep-dive)
+3. [High-Level Design (HLD)](#3-high-level-design-hld)
+   - [3.1 C4 Model Level 1: System Context Diagram](#31-c4-model-level-1-system-context-diagram)
+   - [3.2 C4 Model Level 2: Subsystem Decomposition & Containers](#32-c4-model-level-2-subsystem-decomposition--containers)
+   - [3.3 Core Architectural Patterns](#33-core-architectural-patterns)
+   - [3.4 Technology Trade-Off Analysis & Justification Matrix](#34-technology-trade-off-analysis--justification-matrix)
+4. [Low-Level Component Deep Dive (LLD)](#4-low-level-component-deep-dive-lld)
    - [4.1 Client Layer (Web UI & SSE Receiver)](#41-client-layer-web-ui--sse-receiver)
    - [4.2 API Gateway & ASGI Layer (FastAPI)](#42-api-gateway--asgi-layer-fastapi)
    - [4.3 Safety & Guardrails Layer](#43-safety--guardrails-layer)
@@ -65,7 +69,47 @@
 
 ---
 
-## 3. High-Level System Architecture
+## 3. High-Level Design (HLD)
+
+### 3.1 C4 Model Level 1: System Context Diagram
+
+The System Context diagram illustrates the boundary of the InsureGPT platform, the human actors who interact with it, and the external cloud services it integrates with:
+
+```mermaid
+flowchart TD
+    subgraph Users ["Primary Stakeholders"]
+        P["Policyholder / Claimant"]
+        U["Underwriter / Broker"]
+        C["Claims Adjudication Officer"]
+    end
+
+    subgraph Platform ["InsureGPT Enterprise System"]
+        IGPT["InsureGPT Core AI Platform<br>(FastAPI, RAG Pipeline, Guardrails & Memory)"]
+    end
+
+    subgraph ExternalServices ["External Cloud Services & Storage"]
+        Groq["Groq Cloud LPU<br>(openai/gpt-oss-120b)"]
+        Pinecone["Pinecone Vector Database<br>(1536-d Semantic Index)"]
+        Tavily["Tavily Web Search<br>(IRDAI Regulatory Circulars)"]
+        MySQL["MySQL 8.4 Database<br>(Relational Persistence & Audit)"]
+    end
+
+    P -->|"Queries policy coverage & claim steps"| IGPT
+    U -->|"Verifies underwriting clauses & moratoriums"| IGPT
+    C -->|"Checks cashless turnaround SLAs & checklists"| IGPT
+
+    IGPT -->|"Streams prompt with evidence"| Groq
+    Groq -->|"Returns SSE token stream"| IGPT
+    IGPT -->|"Queries vector similarity (top-k=8)"| Pinecone
+    IGPT -->|"Fetches live circulars & updates"| Tavily
+    IGPT -->|"Persists sessions, messages & citations"| MySQL
+```
+
+---
+
+### 3.2 C4 Model Level 2: Subsystem Decomposition & Containers
+
+The container-level diagram details the internal subsystems of InsureGPT and their communication protocols:
 
 ```mermaid
 flowchart TD
@@ -119,6 +163,32 @@ flowchart TD
     RouterChat -->|"Persist Messages & Citations"| MySQL
     MySQL --- PVC
 ```
+
+---
+
+### 3.3 Core Architectural Patterns
+
+1. **Hybrid RAG Pattern (Dense Recall + Cross-Encoder Reranking + Web Search)**:
+   - Queries are routed through broad vector similarity in Pinecone, scored with deep cross-attention via BGE, and optionally augmented with real-time IRDAI circulars.
+2. **Event-Driven Server-Sent Events (SSE) Streaming**:
+   - Asynchronous streaming from Groq LPU through FastAPI to the client (`Transfer-Encoding: chunked`, `text/event-stream`), sustaining sub-400ms Time to First Token (TTFT).
+3. **Shared-Nothing Stateless Application Tier**:
+   - The FastAPI backend maintains no in-memory session state. All conversation state, user memories, and citations are stored in MySQL, enabling frictionless horizontal pod autoscaling (HPA) in Kubernetes.
+4. **Polyglot Persistence Pattern**:
+   - Relational, transactional data (sessions, messages, audit logs) lives in **MySQL 8.4**, while high-dimensional dense vector embeddings live in **Pinecone Serverless**.
+
+---
+
+### 3.4 Technology Trade-Off Analysis & Justification Matrix
+
+| Component | Selected Technology | Alternative Evaluated | Architectural Rationale & Trade-Off |
+| :--- | :--- | :--- | :--- |
+| **API Framework** | **FastAPI (ASGI)** | Flask / Django (WSGI) | Native `asyncio` event loop required for concurrent SSE token streams without blocking thread pools. |
+| **LLM Inference** | **Groq (`openai/gpt-oss-120b`)** | Standard Cloud LLM APIs | Groq LPU delivers 250+ tokens/sec, enabling instantaneous streaming while the 120B model provides enterprise-grade reasoning for complex exclusions. |
+| **Vector Database** | **Pinecone Serverless** | Local FAISS / Chroma | Managed cloud index eliminates server maintenance, provides sub-50ms latency at scale, and supports native multi-tenant namespace isolation. |
+| **Reranking Engine** | **BGE Cross-Encoder (`BAAI/bge-reranker-base`)** | Single Bi-Encoder similarity | Bi-encoders compress documents into fixed vectors; cross-encoders perform full query-clause attention, preventing misinterpretation of subtle sub-limits. |
+| **Relational Database** | **MySQL 8.4 with SQLAlchemy** | MongoDB / DynamoDB | Strict ACID transactions, structured relational integrity across conversations/messages/citations, and foreign key cascade deletion. |
+| **Web Search** | **Tavily Search API** | Google Custom Search | Specialized for LLM agents; strips DOM clutter, ads, and JavaScript, returning concise Markdown summaries of official circulars. |
 
 
 ---

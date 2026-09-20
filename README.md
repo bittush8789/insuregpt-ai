@@ -85,7 +85,9 @@ uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 
 ---
 
-## 🏗️ Architecture & RAG Pipeline
+## 🏗️ System Architecture & High-Level Design (HLD)
+
+> 📘 **Full Architecture Specification**: For complete C4 Model Context, Subsystems, Sequence Diagrams, ER Models, and Technology Trade-Offs, see **[SYSTEM_DESIGN.md](SYSTEM_DESIGN.md)**.
 
 ```mermaid
 flowchart TD
@@ -158,7 +160,9 @@ INSUREGPT/
 ├── tests/                       # Pytest test suites (test_rag.py, test_web_search.py)
 ├── Dockerfile                   # Production Python 3.11 container
 ├── docker-compose.yml           # App + MySQL multi-container setup
-└── requirements.txt             # Python dependencies
+├── requirements.txt             # Python dependencies
+├── README.md                    # Primary project overview
+└── SYSTEM_DESIGN.md             # Detailed High-Level (HLD) & Low-Level (LLD) Design
 ```
 
 ---
