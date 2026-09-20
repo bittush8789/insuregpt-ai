@@ -69,56 +69,57 @@
 
 ```mermaid
 flowchart TD
-    subgraph Client [Client Presentation Layer]
-        UI[Browser UI: HTML5 / CSS3 Glassmorphic / Vanilla JS]
-        SSE_Recv[SSE Stream Reader & Markdown Parser: Marked.js]
+    subgraph Client ["Client Presentation Layer"]
+        UI["Browser UI: HTML5 / CSS3 / Vanilla JS"]
+        SSE_Recv["SSE Stream Reader & Markdown Parser (Marked.js)"]
     end
 
-    subgraph Gateway [API Gateway & Application Server]
-        FastAPI[FastAPI ASGI Framework :8000]
-        CORS[CORS Middleware]
-        RouterChat[/api/chat Router]
-        RouterConv[/api/conversations Router]
-        RouterDocs[/api/documents Router]
+    subgraph Gateway ["API Gateway & Application Server"]
+        FastAPI["FastAPI ASGI Framework (:8000)"]
+        CORS["CORS Middleware"]
+        RouterChat["Chat API Router (/api/chat)"]
+        RouterConv["Conversations Router (/api/conversations)"]
+        RouterDocs["Documents Router (/api/documents)"]
     end
 
-    subgraph Safety [Guardrails & Memory]
-        Guard[Input Guardrails: PII / Prompt Injection Filter]
-        MemMgr[Conversational Memory Manager]
+    subgraph Safety ["Guardrails & Memory Tier"]
+        Guard["Input Guardrails: PII & Prompt Injection Filter"]
+        MemMgr["Conversational Memory Manager"]
     end
 
-    subgraph CoreEngine [Decision Support & RAG Engine]
-        Retriever[Hybrid Insurance Retriever]
-        PineconeClient[(Pinecone Serverless Vector DB)]
-        Reranker[BGE Cross-Encoder Reranker]
-        WebSearch[Tavily Regulatory Search Service]
-        ContextBuilder[Prompt Context Assembler]
-        LLMClient[Groq Client: openai/gpt-oss-120b]
-        FallbackEngine[Local Grounded Bullet Generator]
+    subgraph CoreEngine ["Decision Support & RAG Engine"]
+        Retriever["Hybrid Insurance Retriever"]
+        PineconeClient[("Pinecone Serverless Vector DB")]
+        Reranker["BGE Cross-Encoder Reranker"]
+        WebSearch["Tavily Regulatory Search Service"]
+        ContextBuilder["Prompt Context Assembler"]
+        LLMClient["Groq Client (openai/gpt-oss-120b)"]
+        FallbackEngine["Local Grounded Bullet Generator"]
     end
 
-    subgraph Persistence [Data & Persistence Tier]
-        MySQL[(MySQL 8.4 Relational Database)]
-        PVC[Persistent Volume Claims: Local / Cloud Block Storage]
+    subgraph Persistence ["Data & Persistence Tier"]
+        MySQL[("MySQL 8.4 Relational Database")]
+        PVC["Persistent Volume Claims (Storage)"]
     end
 
-    UI -->|POST /api/chat Request| FastAPI
+    UI -->|"POST /api/chat Request"| FastAPI
     FastAPI --> CORS --> RouterChat
     RouterChat --> Guard --> MemMgr
     MemMgr --> Retriever
-    Retriever -->|Dense Cosine Search 1536-d| PineconeClient
-    PineconeClient -->|Top-K Candidates| Reranker
-    Retriever -.->|Regulatory Queries| WebSearch
-    Reranker -->|Top Chunks score >= 0.65| ContextBuilder
+    Retriever -->|"Dense Cosine Search 1536-d"| PineconeClient
+    PineconeClient -->|"Top-K Candidates"| Reranker
+    Retriever -.->|"Regulatory Queries"| WebSearch
+    Reranker -->|"Top Chunks (Score >= 0.65)"| ContextBuilder
     WebSearch -.-> ContextBuilder
     ContextBuilder --> LLMClient
-    LLMClient -->|SSE Token Stream| RouterChat
-    LLMClient -.->|API Timeout / Fallback| FallbackEngine
+    LLMClient -->|"SSE Token Stream"| RouterChat
+    LLMClient -.->|"Timeout / Fallback"| FallbackEngine
     FallbackEngine -.-> RouterChat
-    RouterChat -->|Stream Response| SSE_Recv --> UI
-    RouterChat -->|Persist Messages & Citations| MySQL
+    RouterChat -->|"Stream Response"| SSE_Recv --> UI
+    RouterChat -->|"Persist Messages & Citations"| MySQL
     MySQL --- PVC
 ```
+
 
 ---
 
