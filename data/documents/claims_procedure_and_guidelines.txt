@@ -1,0 +1,115 @@
+================================================================================
+INSUREGPT CLAIMS PROCEDURE, ADJUDICATION GUIDELINES & OPERATIONAL SOP 2026
+Standard Operating Procedure ID: GUIDE-CLM-2026 | Version: 2026.3 | Effective: 2026-01-01
+Issued By: InsureGPT Central Claims Management & Adjudication Directorate
+Compliant With: IRDAI Master Circular on Insurance Claims Governance 2024–2026
+================================================================================
+
+PURPOSE & SCOPE
+This document prescribes mandatory workflows, evidentiary thresholds, turn-around time (TAT) service level agreements (SLAs), and documentation protocols governing both Cashless and Reimbursement claims for all health, critical illness, and personal accident lines administered under the InsureGPT ecosystem.
+
+--------------------------------------------------------------------------------
+SECTION 1 — CASHLESS CLAIMS WORKFLOW (EMPANELLED NETWORK HOSPITALS)
+--------------------------------------------------------------------------------
+1.1 Planned Hospitalization Workflow:
+    - Pre-Authorization Submission: The insured or network hospital insurance desk must submit a completed Pre-Authorization Request Form (Part C) at least 48 hours prior to scheduled patient admission.
+    - Initial Authorization SLA: The TPA / Claims Processing Centre must convey either initial approval, query raise, or denial within 1 hour of receiving complete clinical data, complying with the 100% cashless mandate.
+    - Interim Approvals: In case of prolonged hospital stays exceeding 5 days, interim bills must be submitted every 72 hours for continuous cashless enhancement.
+
+1.2 Emergency Hospitalization Workflow:
+    - Intimation Timeline: Hospitalization must be formally intimated to the Claims Assistance Desk within 24 hours of emergency admission.
+    - Expedited Cashless Guarantee: Hospital produces the digital InsureGPT e-Card along with a valid Government Photo ID (Aadhaar, Passport, Voter ID). An initial emergency credit limit is approved within 60 minutes to ensure treatment commences without deposit demands.
+
+1.3 Final Discharge Authorization & Settlement SLA:
+    - Discharge Summary & Final Bill Submission: The hospital transmits the itemized final invoice, lab summaries, and signed discharge summary via the digital claims portal.
+    - Mandatory 3-Hour Final Authorization: Pursuant to IRDAI Master Circular directions, the insurer must issue final cashless claim settlement approval within 3 hours of receiving the discharge bill from the network hospital.
+    - Zero Patient Wait Policy: The patient shall not be detained in the hospital room beyond 3 hours due to pending insurance cashless confirmation.
+    - Insured Co-Payment / Non-Medical Liability: The patient settles only non-payable items (Annexure I non-medical charges like registration fees, gloves, personal comfort items, companion meals) and voluntary co-pay deductibles before hospital release.
+
+--------------------------------------------------------------------------------
+SECTION 2 — REIMBURSEMENT CLAIMS WORKFLOW (NON-NETWORK HOSPITALS)
+--------------------------------------------------------------------------------
+2.1 Mandatory Claim Intimation Deadlines:
+    - Planned Hospitalization in Non-Network Hospital: Written intimation must be submitted at least 48 hours prior to admission.
+    - Emergency Admission: Intimation must be lodged within 24 hours of hospital admission or prior to final discharge, whichever is earlier.
+    - Required Intimation Details: Policy number, patient name, hospital name & registration number, treating doctor name, tentative clinical diagnosis, and estimated expenditure.
+
+2.2 Dossier Submission Windows:
+    - Inpatient Hospitalization Dossier: Must be submitted to the Claims Registry within 30 calendar days from the formal date of hospital discharge.
+    - Pre-Hospitalization Bills: Must be submitted alongside the primary inpatient claim dossier within the 30-day window.
+    - Post-Hospitalization Bills: Must be submitted within 15 calendar days from the completion of the 90-day post-hospitalization coverage window (maximum 105 days from discharge).
+    - Condonation of Delay: Late submissions may be condoned if substantiated with valid reasons (e.g., severe patient incapacitation, natural calamity) with medical director approval.
+
+--------------------------------------------------------------------------------
+SECTION 3 — COMPREHENSIVE DOCUMENTATION DOSSIER CHECKLIST
+--------------------------------------------------------------------------------
+Every reimbursement submission must satisfy the Eight-Point Verified Dossier Standard:
+
+1. Claim Form:
+   - Form Part A: Fully completed, dated, and signed by the insured policyholder or primary claimant.
+   - Form Part B: Duly filled, signed, and stamped by the treating physician and the Medical Superintendent of the treating hospital with hospital registration number.
+
+2. Discharge Summary / Card:
+   - Original comprehensive discharge summary detailing clinical history, presenting complaints, vital signs at admission, diagnostic findings, medical line of treatment, surgical notes, and patient condition at discharge.
+
+3. Detailed Itemized Final Hospital Invoice:
+   - Original final bill bearing the hospital's official printed letterhead, tax registration number, and official "PAID" stamp.
+   - Must provide line-item breakups for room charges, ICU charges, operation theatre usage, surgeon fees, anesthetist fees, consultation charges, and nursing care.
+
+4. Original Payment Receipts:
+   - Sequential, numbered money receipts corresponding exactly to advance deposits, interim payments, and final balance settlements made to the hospital.
+   - Cancelled cheques, credit card swipe slips, or online UPI payment references must accompany receipts.
+
+5. Pharmacy & Consumables Vouchers:
+   - Original chemist bills accompanied by corresponding doctor prescription slips specifying drug brand, dosage, and duration of administration.
+
+6. Diagnostic Investigations & Radiological Reports:
+   - Original pathology lab reports (blood, urine, tissue biopsy, culture).
+   - High-resolution radiological report copies accompanied by physical X-Ray films, CT scan sheets, MRI films, or digital DICOM CDs.
+
+7. Medico-Legal Dossier (Applicable for Accidents / Trauma):
+   - Medico-Legal Certificate (MLC) copy authenticated by the casualty medical officer.
+   - Police First Information Report (FIR) or Panchnama in case of road traffic accidents (RTA), assault, or industrial injury.
+   - Alcohol and Toxicology Screening Report for the driver/patient in vehicular collision cases.
+
+8. KYC Documents & Electronic Bank Mandate:
+   - Valid Government Photo ID proof (Aadhaar, Passport, Voter ID) and PAN Card of the claimant.
+   - Original cancelled cheque showing printed name of the account holder, account number, and bank IFSC code for direct NEFT/RTGS fund settlement.
+
+--------------------------------------------------------------------------------
+SECTION 4 — NON-PAYABLE CONSUMABLES & EXPENSES GUIDELINES
+--------------------------------------------------------------------------------
+In accordance with IRDAI Standardization Guidelines, the following items are non-payable under standard hospitalization policies unless a dedicated "Consumables Add-On" rider is attached:
+- List I: Personal comfort items (baby food, mineral water, tissue paper, toothbrushes, hand sanitizers, slippers, thermometers, luxury toiletries, guest meals).
+- List II: Administrative and documentation charges (admission fee, registration card charge, medical records photocopying, discharge card compilation fees, courier charges).
+- List III: Miscellaneous medical disposables (aprons, sterile gloves beyond standard surgical bundles, face shields, PPE kits exceeding standard ICU allocation, surgical caps).
+- List IV: External supporting equipment (crutches, braces, lumbar belts, cervical collars) unless surgically implanted into the patient's skeletal system.
+
+--------------------------------------------------------------------------------
+SECTION 5 — FRAUD DETECTION, INVESTIGATION (SIU) & AUDIT TRIGGERS
+--------------------------------------------------------------------------------
+5.1 Special Investigation Unit (SIU) Escalation Triggers:
+    - Non-network hospitals with high historical claim frequency or inflated average ticket sizes.
+    - Backdated admissions or bills showing overlapping dates across multiple claims.
+    - Claims submitted for routine medical management with identical symptom profiles (e.g., clusters of viral fever/gastroenteritis) lacking corresponding physical signs.
+    - Discrepancies between pathological lab findings and prescribed pharmaceutical regimens.
+    - Hospital facilities operating with less than 10 inpatient beds or lacking a fully equipped operation theatre and qualified round-the-clock medical staff.
+
+5.2 Action on Proven Fraudulent Claims:
+    - Instant claim repudiation with forfeiture of premiums paid under Section 45 of the Insurance Act 1938.
+    - Cancellation of active policy coverage and reporting of delinquent medical facilities to the National Insurance Fraud Bureau (NIFB) and local law enforcement.
+
+--------------------------------------------------------------------------------
+SECTION 6 — ADJUDICATION TIMELINES, SETTLEMENT SLAs & ESCALATION MATRIX
+--------------------------------------------------------------------------------
+6.1 Operational SLAs:
+    - Claim Dossier Registration & SMS Acknowledgement: Within 24 hours of receipt.
+    - Deficiency Intimation Letter: Dispatched within 3 business days of dossier receipt if any document is missing or ambiguous. The insured is allowed 30 days to furnish deficiencies.
+    - Final Claim Settlement or Repudiation: Processed within 15 business days of receiving the final complete set of required documentation.
+    - Interest on Delayed Claims: As per IRDAI regulations, if settlement is delayed beyond 30 days without valid justification, the insurer pays bank interest at 2.0% above the prevailing bank rate.
+
+6.2 Grievance Redressal & Ombudsman Matrix:
+    - Tier 1 (Internal): Claims Grievance Officer (grievance@insuregpt.internal) — Mandated turnaround: 7 business days.
+    - Tier 2 (Appellate): Chief Claims Ombudsman & Customer Advocacy Council — Mandated turnaround: 14 business days.
+    - Tier 3 (Statutory): Insurance Ombudsman under Insurance Ombudsman Rules 2017 in the regional jurisdiction if grievance is rejected, unresolved after 30 days, or if partial settlement is disputed.
+================================================================================

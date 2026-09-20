@@ -1,0 +1,76 @@
+================================================================================
+INSUREGPT COMMERCIAL PROPERTY, FIRE & SPECIAL PERILS POLICY WORDING 2026
+Policy Document ID: POL-PRP-2026-V1 | Revision: 2026.1 | Effective: 2026-01-01
+Underwriter: Apex Industrial & Commercial Risk Underwriters Ltd. (IRDAI Regn. No: 160/PRP/2026)
+Governing Framework: IRDAI Standard Bharat Sookshma & Griha Raksha Commercial Tariff
+================================================================================
+
+OPERATIVE CLAUSE & PREAMBLE
+This Policy of Insurance is issued by Apex Industrial & Commercial Risk Underwriters Ltd. (the "Company") to the Insured specified in the Schedule. Upon receipt of premium, the Company agrees to indemnify the Insured for physical loss, destruction, or damage caused to the insured building, plant, machinery, fixtures, fittings, and stocks situated at the risk location by any of the Insured Perils during the Policy Period, up to the Sum Insured specified in the Schedule.
+
+--------------------------------------------------------------------------------
+SECTION 1 — STANDARD FIRE AND SPECIAL PERILS (SFSP) COVERAGE
+--------------------------------------------------------------------------------
+1.1 Insured Perils Schedule:
+    The policy indemnifies physical loss or damage directly occasioned by:
+    1. Fire: Excluding destruction caused by its own fermentation, natural heating, or spontaneous combustion.
+    2. Lightning: Direct strike or resulting fire damage to structures and electrical circuitry.
+    3. Explosion / Implosion: Damage resulting from internal or external explosions (excluding boilers, economizers, or vessels under steam pressure covered by Boiler Machinery policies).
+    4. Aircraft Damage: Direct physical impact by aircraft, other aerial devices, or articles dropped therefrom.
+    5. Riot, Strike, and Malicious Damage (RSMD): Direct physical damage caused by external violent civil agitation or malicious intent.
+    6. Storm, Cyclone, Typhoon, Tempest, Hurricane, Tornado, Flood, and Inundation (STFI): Damage caused by atmospheric disturbance, torrential rainwater flooding, river overflow, or coastal sea inundation.
+    7. Impact Damage: Direct collision impact by any road or rail vehicle or animal not belonging to the Insured.
+    8. Subsidence and Landslide: Settlement of land or collapse of rock structure beneath the building foundation.
+    9. Bursting or Overflowing of Water Tanks, Apparatus, and Pipes.
+    10. Missile Testing Operations.
+    11. Leakage from Automatic Sprinkler Installations: Accidental water discharge from automated fire extinguishing systems.
+    12. Bush Fire: Excluding forest fires or burning of agricultural stubble.
+
+1.2 Plinth & Foundations Inclusion:
+    - The building Sum Insured automatically encompasses the structure's plinth and subsurface concrete foundations unless explicitly excluded in the Schedule.
+
+--------------------------------------------------------------------------------
+SECTION 2 — BASIS OF LOSS SETTLEMENT & REINSTATEMENT VALUE CLAUSE
+--------------------------------------------------------------------------------
+2.1 Reinstatement Value Clause (RVC):
+    - Loss in respect of Building, Plant, Machinery, and Fixtures is settled on a "Reinstatement Basis" (New for Old).
+    - The settlement amount represents the actual cost of replacing or reinstating property of the same kind or type, in a condition equal to but not better than its condition when new, without deduction for depreciation.
+    - Condition: The Insured must commence and complete reinstatement within 12 months from the date of loss. If the Insured elects not to rebuild or replace, the claim is settled on an "Indemnity Basis" with statutory depreciation deductions.
+
+2.2 Stocks Loss Settlement:
+    - Raw Materials: Valued at landed purchase cost plus inland freight and handling taxes.
+    - Work-in-Progress (WIP): Valued at raw material cost plus direct labor and factory overheads incurred up to the stage of damage.
+    - Finished Goods: Valued at net manufacturing cost or contract sales price (if goods are pre-sold under an enforceable delivery contract).
+
+2.3 Condition of Average (Under-Insurance Penalty):
+    - If at the time of loss or damage, the actual replacement cost of the insured property exceeds the Sum Insured declared in the Schedule by more than 15%, the Insured is considered their own insurer for the difference and must bear a proportionate share of the loss.
+    - Formula: Admissible Claim = (Loss Amount × Sum Insured) ÷ Total Sound Value.
+
+--------------------------------------------------------------------------------
+SECTION 3 — AUTOMATIC POLICY EXTENSIONS & SPECIAL RIDERS
+--------------------------------------------------------------------------------
+3.1 Architects, Surveyors, and Consulting Engineers Fees:
+    - Expenses reasonably incurred by the Insured for professional design, plan drawing, and site inspection following damage, covered up to 5% of the gross claim amount.
+
+3.2 Removal of Debris Clause:
+    - Costs incurred in clearing, shoring up, or demolishing damaged building components and removing industrial debris to licensed municipal disposal yards, covered up to 1% of the gross claim amount.
+
+3.3 Spontaneous Combustion Rider:
+    - Indemnifies loss to stocks of coal, grain, oilseeds, or chemicals caused by their own internal biological heating or self-ignition.
+
+3.4 Business Interruption / Consequential Loss (Fire Loss of Profits - FLOP):
+    - Indemnifies loss of Gross Profit resulting from business interruption and reduction in factory turnover during the indemnity period (up to 12 months) following an insured fire peril.
+    - Covers continuing standing business charges (bank interest, employee salaries, premises lease rent, and audit expenses) and increased cost of working.
+
+--------------------------------------------------------------------------------
+SECTION 4 — GENERAL POLICY EXCLUSIONS & DEDUCTIBLES
+--------------------------------------------------------------------------------
+4.1 Excluded Property & Perils:
+    - Cash, currency notes, bullion, precious stones, stamps, stock certificates, legal deeds, and accounting books unless specifically insured in a fire-rated safe.
+    - Damage caused by cold storage breakdown or change in temperature resulting from utility power grid failure, unless direct fire damaged the refrigeration plant.
+    - Pollution or contamination, except where such contamination directly results from an insured fire event.
+    - War, invasion, nuclear radiation, radioactive waste contamination, and confiscation by government order.
+
+4.2 Standard Excess / Deductible:
+    - Policies with Sum Insured up to ₹10 Crores carry a mandatory excess of 5% of the claim amount, subject to a minimum of ₹10,000 per event.
+================================================================================

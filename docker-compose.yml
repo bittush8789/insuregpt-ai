@@ -1,0 +1,47 @@
+services:
+  # MySQL Database Service
+  mysql:
+    image: mysql:8.4
+    container_name: insuregpt_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI Backend & Web App
+  app:
+    build: .
+    container_name: insuregpt_app
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - ENVIRONMENT=production
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_DATABASE=insuregpt
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - PINECONE_API_KEY=${PINECONE_API_KEY:-dummy_key}
+      - PINECONE_INDEX_NAME=${PINECONE_INDEX_NAME:-insuregpt-index}
+      - LLM_API_KEY=${LLM_API_KEY:-dummy_key}
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./data/documents:/app/data/documents
+
+volumes:
+  mysql_data:
+    driver: local

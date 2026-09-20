@@ -1,0 +1,119 @@
+================================================================================
+INSUREGPT PRIVATE CAR PACKAGE MOTOR INSURANCE POLICY WORDING 2026
+Policy Document ID: POL-MOT-2026-V1 | Revision: 2026.3 | Effective: 2026-01-01
+Underwriter: Apex Mutual General Insurance Co. Ltd. (IRDAI Regn. No: 155/GEN/2026)
+================================================================================
+
+OPERATIVE CLAUSE & PREAMBLE
+Whereas the Insured by a proposal and declaration dated as stated in the Schedule which shall be the basis of this contract and is deemed to be incorporated herein has applied to Apex Mutual General Insurance Co. Ltd. (the "Company") for insurance hereinafter contained and has paid the premium mentioned in the Schedule as consideration for such insurance in respect of accident, loss, or damage occurring during the Period of Insurance.
+
+--------------------------------------------------------------------------------
+SECTION 1 — OWN DAMAGE (OD) LOSS OR DAMAGE TO THE INSURED VEHICLE
+--------------------------------------------------------------------------------
+1.1 Insured Perils & Accidental Indemnity:
+    The Company will indemnify the Insured against accidental loss of or damage to the vehicle insured and/or its accessories whilst thereon by:
+    - Accidental external collision or overturning by direct impact.
+    - Fire, explosion, self-ignition, or lightning strike.
+    - Burglary, housebreaking, vehicular theft, or pilferage.
+    - Riot, strike, malicious act, terrorism, and hostile damage.
+    - Natural Perils (STFI & AOG): Earthquake, volcanic eruption, typhoon, cyclone, hurricane, storm, tempest, inundation, flood, hailstorm, frost, landslide, and rockslide.
+    - In-Transit Perils: Loss or damage whilst in transit by road, rail, inland waterway, aerial lift, or elevator.
+
+1.2 Statutory Schedule of Depreciation on Parts:
+    In the absence of an active "Zero Depreciation Add-on Rider", replacement of parts during claim repair shall be subject to the following statutory depreciation deductions:
+    - Rubber, nylon, plastic parts, tyres, tubes, batteries, and airbags: 50% flat depreciation.
+    - Fibre glass components: 30% flat depreciation.
+    - All glass parts: Nil (0%) depreciation.
+    - Painting Charges: 25% depreciation applied towards paint materials (or 50% for commercial vehicle lines).
+    - Metallic parts (rate scaled by age of vehicle from registration):
+      * Up to 6 months: Nil (0%)
+      * Between 6 months and 1 year: 5%
+      * Between 1 year and 2 years: 10%
+      * Between 2 years and 3 years: 15%
+      * Between 3 years and 4 years: 25%
+      * Between 4 years and 5 years: 35%
+      * Between 5 years and 10 years: 40%
+      * Over 10 years: 50%
+
+1.3 Total Loss (TL) and Constructive Total Loss (CTL):
+    - Total Loss: Occurs when the vehicle is completely destroyed or stolen and unrecovered.
+    - Constructive Total Loss (CTL): Declared when the aggregate estimated cost of retrieval, salvage, and repair of the insured vehicle exceeds 75% of the Insured Declared Value (IDV) specified in the Policy Schedule.
+    - Settlement: In event of TL/CTL, the company pays the full IDV after deduction of mandatory policy deductible and scrap salvage value.
+
+1.4 Insured Declared Value (IDV) Calculation:
+    The IDV is fixed at the commencement of each policy period by applying statutory depreciation to the manufacturer's listed showroom selling price:
+    - Age not exceeding 6 months: 5% depreciation.
+    - Age exceeding 6 months but not exceeding 1 year: 15% depreciation.
+    - Age exceeding 1 year but not exceeding 2 years: 20% depreciation.
+    - Age exceeding 2 years but not exceeding 3 years: 30% depreciation.
+    - Age exceeding 3 years but not exceeding 4 years: 40% depreciation.
+    - Age exceeding 4 years but not exceeding 5 years: 50% depreciation.
+    - Vehicles over 5 years old: IDV arrived at by mutual agreement between insurer and insured based on a certified surveyor's market valuation.
+
+--------------------------------------------------------------------------------
+SECTION 2 — THIRD PARTY (TP) LEGAL LIABILITY & STATUTORY PERSONAL ACCIDENT
+--------------------------------------------------------------------------------
+2.1 Third Party Bodily Injury and Death:
+    - Statutory indemnity against all sums which the Insured shall become legally liable to pay in respect of death of or bodily injury to any third party (including pedestrians and third-party vehicle occupants) caused by or arising out of the use of the motor vehicle in a public place.
+    - Financial Limit: Unlimited indemnity under the provisions of the Motor Vehicles Act 1988 (as amended in 2019).
+
+2.2 Third Party Property Damage (TPPD):
+    - Damage to third-party tangible property caused by the insured vehicle.
+    - Statutory Limit: Indemnity capped at ₹7,50,000 per accident. The insured may opt for restricted TPPD cover of ₹6,000 with a corresponding reduction in Third-Party premium.
+
+2.3 Compulsory Personal Accident (CPA) Cover for Owner-Driver:
+    - Mandatory statutory cover providing ₹15,00,000 capital sum insured in the event of accidental death or permanent total disablement sustained by the registered owner-driver whilst driving the insured vehicle.
+    - Scale of Compensation:
+      * Accidental Death: 100% (₹15,00,000)
+      * Loss of two limbs or sight of two eyes, or one limb and sight of one eye: 100% (₹15,00,000)
+      * Loss of one limb or sight of one eye: 50% (₹7,50,000)
+      * Permanent Total Disablement from any other injury: 100% (₹15,00,000)
+
+--------------------------------------------------------------------------------
+SECTION 3 — SPECIAL ADD-ON ENDORSEMENT RIDERS
+--------------------------------------------------------------------------------
+3.1 Zero Depreciation (Bumper-to-Bumper) Rider:
+    - Fully waives the statutory depreciation deduction specified under Section 1.2 on all replacement parts (rubber, nylon, plastic, glass, and metal).
+    - Permitted Claims: Applicable for up to two OD claims per policy term without depreciation haircut.
+
+3.2 Engine and Gearbox Protector (Hydrostatic Lock Cover):
+    - Covers repair and replacement costs of internal engine components, pistons, crankshaft, connecting rods, cylinder block, and gearbox housing damaged due to water ingestion (hydrostatic lock) during waterlogging or leakage of engine lubricating oil/coolant.
+
+3.3 Return to Invoice (RTI) Cover:
+    - In the event of an admissible Total Loss, CTL, or unrecovered Theft claim, the Company pays the difference between the IDV and the original on-road purchase price (including original showroom invoice cost, registration charges, road tax, and mandatory insurance costs).
+
+3.4 Tyre and Rim Protection Rider:
+    - Indemnifies cost of repair or replacement of tyres and rims damaged by accidental cuts, bursting, bulging, or structural rim distortion caused by potholes or road curbs, where the vehicle itself has not suffered an accident.
+
+3.5 Key and Lock Replacement Rider:
+    - Reimburses up to ₹25,000 for the cost of purchasing new OEM computerized keys, lock cylinders, and reprogramming transponder modules in the event of key loss, theft, or damaged locks.
+
+3.6 Roadside Assistance (RSA) 24x7:
+    - Emergency fuel delivery (up to 5 litres), flat tyre replacement using spare wheel, battery jumpstart, towing up to 50 km to nearest authorized workshop, and lockout assistance.
+
+--------------------------------------------------------------------------------
+SECTION 4 — GENERAL EXCLUSIONS & NON-PAYABLE CLAUSES
+--------------------------------------------------------------------------------
+4.1 The Company shall not be liable under this policy in respect of:
+    - Driver Licensing Default: Any accidental loss or damage incurred whilst the insured vehicle is being driven by any person without an active, valid driving license recognized under the Motor Vehicles Act.
+    - Alcohol & Narcotic Intoxication: Any accident sustained whilst the driver is under the influence of intoxicating liquors, drugs, or narcotics exceeding legal blood-alcohol limits (BAC > 30 mg/100 ml).
+    - Consequential Loss: Indirect or consequential damage (e.g., continuing to drive an overheating or oil-depleted vehicle, resulting in engine seizure).
+    - Geographic Limitation: Any accidental loss occurring outside the territorial borders of India (unless endorsed for Bhutan, Nepal, Sri Lanka, or Bangladesh).
+    - Non-Accidental Wear & Tear: Normal mechanical breakdown, electrical failure, corrosion, rust, or material fatigue.
+    - Commercial Utilization: Using a private vehicle registered for personal domestic usage for hire, taxi aggregations, speed trials, or commercial cargo transit.
+
+--------------------------------------------------------------------------------
+SECTION 5 — NO CLAIM BONUS (NCB) SCALE & PORTABILITY RULES
+--------------------------------------------------------------------------------
+5.1 NCB Scale on Own Damage (OD) Premium:
+    - No claim during preceding year: 20% discount on OD premium.
+    - No claim during 2 consecutive years: 25% discount.
+    - No claim during 3 consecutive years: 35% discount.
+    - No claim during 4 consecutive years: 45% discount.
+    - No claim during 5 consecutive years: 50% discount (maximum cap).
+
+5.2 NCB Retention & Transfer Rules:
+    - NCB belongs to the registered policyholder, not the vehicle. When selling a vehicle, the insured can transfer their accumulated NCB certificate to a newly acquired vehicle.
+    - NCB is fully portable across any licensed general insurance company in India upon submission of the previous insurer's renewal notice or NCB certificate.
+    - If a single OD claim is reported during the policy year, the accumulated NCB drops back to 0% at next renewal (unless protected with an NCB Protect Add-On).
+================================================================================

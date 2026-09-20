@@ -1,0 +1,162 @@
+================================================================================
+INSUREGPT COMPREHENSIVE HEALTH POLICY WORDING & OPERATIONAL PROVISIONS 2026
+Policy Document ID: POL-HLT-2026-V1 | Revision: 2026.3 | Effective: 2026-01-01
+Underwriter: Apex Mutual Health Assurance Corp. (IRDAI Regn. No: 142/HLT/2026)
+================================================================================
+
+PREAMBLE & OPERATIVE CLAUSE
+This policy is a contract of insurance between the Insured Person and Apex Mutual Health Assurance Corp. (hereinafter designated as the "Company" or "Insurer"). It is subject to the terms, conditions, definitions, exclusions, and warranties contained herein or endorsed hereon. Upon payment of the stipulated premium and subject to satisfactory medical underwriting, the Company agrees to indemnify the Insured Person for medically necessary hospitalization expenses reasonably incurred during the Policy Period up to the Sum Insured stated in the Policy Schedule.
+
+--------------------------------------------------------------------------------
+SECTION 1 — INPATIENT HOSPITALIZATION COVERAGE & LIMITS
+--------------------------------------------------------------------------------
+1.1 Room, Boarding, and Nursing Expenses:
+    - Normal Room Rent: Payable up to 1.0% of the base Sum Insured per day of hospital confinement.
+    - Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU): Payable up to 2.0% of the base Sum Insured per day.
+    - Proportionate Deduction Clause: If the Insured occupies a room category whose tariff exceeds the eligible daily limit, the Company will apply a proportionate deduction to all associated medical charges (including surgeon fees, anesthesia, nursing charges, and OT charges).
+    - Exception to Proportionate Deduction: The cost of medicines, pharmaceuticals, consumables, medical devices, diagnostic implants, and blood/oxygen shall be paid at actuals without proportionate reduction.
+
+1.2 Medical Practitioner, Surgeon, and Nursing Staff Fees:
+    - Fees charged by the registered Medical Practitioner, Operating Surgeon, Anesthetist, Medical Consultant, and Visiting Specialist.
+    - Specialized nursing expenses incurred during active inpatient stay under doctor's prescription.
+
+1.3 Operating Theatre & Associated Medical Infrastructure Costs:
+    - Operation theatre charges, surgical appliances, surgical disposables, anesthesia equipment fees.
+    - Administration of whole blood, transfusion charges, artificial limbs, stents, heart valves, prosthetic devices, orthopedic implants, and pacemaker insertions.
+
+1.4 Modern Treatment Methods & Advanced Medical Technologies:
+    The following modern procedures are covered up to 50% of the Sum Insured or ₹5,00,000, whichever is lower:
+    - Robotic Surgeries and Computer-assisted orthopedic procedures.
+    - Uterine Artery Embolization and HIFU (High-Intensity Focused Ultrasound).
+    - Immunotherapy and Monoclonal Antibody injections in clinical settings.
+    - Stereotactic Radiosurgery (Cyberknife, Gamma knife).
+    - Bronchial Thermoplasty and Vaporization of the Prostate (Greenlight laser).
+    - Intra-vitreal injections (Lucentis, Avastin for macular degeneration).
+    - Stem Cell Therapy for hematological malignancies.
+    - Deep Brain Stimulation (DBS) for intractable movement disorders.
+
+1.5 Organ Donor Inpatient Medical Expenses:
+    - Inpatient hospitalization expenses incurred on the donor for organ harvesting surgery are indemnified up to 100% of the Sum Insured, provided the organ donation is in compliance with the Transplantation of Human Organs Act 1994.
+    - Donor screening expenses and post-operative complications of the donor are strictly excluded.
+
+--------------------------------------------------------------------------------
+SECTION 2 — PRE-HOSPITALIZATION & POST-HOSPITALIZATION EXTENSIONS
+--------------------------------------------------------------------------------
+2.1 Pre-Hospitalization Medical Expenses:
+    - Medical expenses incurred for up to 60 calendar days immediately preceding the date of hospital admission.
+    - Eligibility Requirement: Must be directly correlated with the confirmed primary diagnosis and clinical rationale for which inpatient hospitalization occurred.
+    - Includes diagnostic pathology lab tests, radiological investigations, doctor consultation receipts, and prescription medications.
+
+2.2 Post-Hospitalization Medical Expenses:
+    - Medical expenses incurred for up to 90 calendar days immediately following the date of discharge from the hospital.
+    - Eligibility Requirement: Must be directly correlated with the discharge summary diagnosis and follow-up care.
+    - Includes follow-up consultations, wound dressing charges, repeat lab tests, diagnostic scans, and prescribed convalescence medications.
+
+--------------------------------------------------------------------------------
+SECTION 3 — DAY CARE PROCEDURES & SURGERIES
+--------------------------------------------------------------------------------
+3.1 Definition & Coverage Scope:
+    - Medical treatments and surgical procedures undertaken under general, local, or spinal anesthesia in a hospital/day care centre requiring less than 24 hours of hospital confinement due to technological advancement.
+    - Full coverage across 540+ recognized day care procedures including:
+      * Ophthalmology: Cataract phacoemulsification, vitrectomy, retinal detachment repair, glaucoma drainage devices.
+      * ENT: Tympanoplasty, stapedectomy, mastoidectomy, myringotomy, turbinectomy, nasal polypectomy, tonsillectomy.
+      * General Surgery & Urology: Inguinal/umbilical hernioplasty, hydrocelectomy, hemorrhoidectomy, fistula excision, lithotripsy (ESWL), ureteroscopy (URS), cystoscopy, circumcision.
+      * Oncology: Chemotherapy infusions, targeted radiotherapy fractions, radioactive seed implantation.
+      * Orthopedics: Arthroscopic meniscectomy, ligament reconstruction, closed reduction of bone fractures with K-wire fixation.
+    - Strict Limitation: OPD (Out-Patient Department) treatments, consultations, simple wound sutures, and general clinic prescriptions do not qualify as Day Care.
+
+--------------------------------------------------------------------------------
+SECTION 4 — DOMICILIARY HOSPITALIZATION & HOME HEALTHCARE
+--------------------------------------------------------------------------------
+4.1 Domiciliary Hospitalization Terms:
+    - Medical treatment for an illness/injury that in the normal course requires hospitalization, but is taken while confined at home because:
+      (a) The condition of the patient is of such severity that they cannot be moved to a hospital; or
+      (b) The patient cannot secure hospital accommodation due to genuine unavailability of hospital beds.
+    - Minimum Duration: Active continuous medical treatment must span at least 3 continuous calendar days.
+    - Explicit Exclusions under Domiciliary Cover:
+      * Asthma, Bronchitis, Chronic Cough, and upper respiratory tract infections.
+      * Diabetes Mellitus and Insipidus.
+      * Diarrhea and all types of Gastroenteritis.
+      * Epilepsy, Hypertension, and chronic arthritis.
+      * Pyrexia of unknown origin (PUO) lasting under 7 days.
+
+--------------------------------------------------------------------------------
+SECTION 5 — MATERNITY & NEWBORN CHILD COVERAGE RIDER
+--------------------------------------------------------------------------------
+5.1 Maternity Expenses:
+    - Covered after a continuous waiting period of 24 months of active policy membership.
+    - Normal Delivery Benefit: Capped at ₹50,000 per delivery event.
+    - Cesarean Section (C-Section) Benefit: Capped at ₹75,000 per delivery event.
+    - Maximum eligible events: Restricted to the first two living children during the lifetime of the policyholder.
+    - Covers medical termination of pregnancy (MTP) necessitated to save the life of the mother under certified medical advice.
+
+5.2 Newborn Baby Coverage:
+    - The newborn infant is automatically covered from Day 1 of birth up to the end of the current policy period within the mother's Sum Insured, up to a limit of ₹1,00,000.
+    - Includes coverage for emergency medical treatment of congenital internal defects.
+    - Mandatory pediatric vaccination expenses up to ₹10,000 during the first 12 months as per the National Immunization Schedule.
+
+--------------------------------------------------------------------------------
+SECTION 6 — AYUSH TREATMENT REIMBURSEMENT
+--------------------------------------------------------------------------------
+6.1 Inpatient Alternative Medicine:
+    - Inpatient treatments taken under Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy (AYUSH).
+    - Covered up to 100% of the Sum Insured without sub-limit, subject to:
+      * Treatment must be administered in a Central or State Government hospital or an AYUSH medical college hospital accredited by NABH (National Accreditation Board for Hospitals & Healthcare Providers).
+
+--------------------------------------------------------------------------------
+SECTION 7 — WAITING PERIODS, MORATORIUM & TIME-BOUND RESTRICTIONS
+--------------------------------------------------------------------------------
+7.1 Initial 30-Day Waiting Period (Clause 7.1):
+    - No claim for any illness or disease contracted during the initial 30 days from policy inception date shall be admissible.
+    - Absolute Exception: Accidental bodily trauma requiring emergency hospitalization is covered with immediate effect from Day 1, Minute 1.
+
+7.2 Specific Disease Waiting Period (Clause 7.2 - 24 Months):
+    - A 24-month continuous coverage waiting period applies to the following named conditions, surgeries, and related complications:
+      * Cataract, Glaucoma, and diseases of the middle ear and mastoid.
+      * Benign Prostatic Hypertrophy (BPH), Hydrocele, Varicocele.
+      * All types of Hernia (Inguinal, Umbilical, Incisional, Epigastric).
+      * Piles (Hemorrhoids), Fistula-in-ano, Fissure-in-ano, Pilonidal sinus.
+      * Calculi / Stones in urinary, biliary, gallbladder, and renal systems.
+      * Joint replacement surgeries (knee, hip, shoulder), unless resulting directly from major accidental trauma.
+      * Uterine fibroids, endometriosis, adenomyosis, and menorrhagia requiring hysterectomy.
+      * ENT disorders including chronic sinusitis, deviated nasal septum (DNS), nasal polyps, and adenoids.
+
+7.3 Pre-Existing Disease (PED) Waiting Period (Clause 7.3 - 36 Months):
+    - Pre-existing diseases, medical conditions, symptoms, or ailments diagnosed, treated, or advised prior to inception of this insurance policy are covered only after 36 months of continuous coverage.
+    - Continuous coverage credits earned with previous Indian general or health insurers under IRDAI Health Portability Regulations will be recognized and credited toward this 36-month requirement.
+
+7.4 Regulatory Moratorium Period (Clause 7.4 - 60 Months):
+    - After 60 continuous months of active policy renewals without lapse, no policy claim shall be contestable by the Insurer on grounds of misrepresentation, non-disclosure, or misstatement, except in proven cases of intentional fraud.
+
+--------------------------------------------------------------------------------
+SECTION 8 — PERMANENT & GENERAL POLICY EXCLUSIONS
+--------------------------------------------------------------------------------
+8.1 Non-Payable Categories:
+    - Diagnostic Admissions: Hospitalization solely for diagnostic observation, monitoring, X-rays, or blood panels without active curative medical treatment.
+    - Cosmetic & Reconstructive Surgeries: Excluded, unless medically required as an essential reconstructive procedure directly resulting from accidental injury, burn contractures, or cancer resection.
+    - Refractive Eye Errors: Correction of eyesight defects below 7.5 diopters for refractive errors (e.g., LASIK, PRK).
+    - Obesity & Bariatric Surgeries: Excluded unless fulfilling strict clinical morbidity parameters (BMI ≥ 40, or BMI ≥ 35 with severe co-morbidities like severe coronary artery disease, sleep apnea, uncontrolled type-II diabetes) subject to prior written approval.
+    - Self-Inflicted Injury: Attempted suicide, self-mutilation, or injuries sustained whilst participating in illegal criminal acts.
+    - Substance Abuse & Intoxication: Treatments resulting from dependence, abuse, or overdose of alcohol, narcotics, psychotropic substances, or non-prescribed chemical inhalants.
+    - High-Risk Adventure Activities: Injuries sustained during skydiving, paragliding, base jumping, scuba diving beyond 30m, motor racing, and mountaineering requiring ropes/crampons.
+    - War, Nuclear, and Biological Perils: Injuries or radiation sickness originating from war, invasion, civil rebellion, radioactive contamination, or nuclear materials.
+    - Non-Medical Consumables: Items categorized under IRDAI Non-Payable List I, including gloves, sanitizer, luxury room amenities, admission file charges, diet planning fees, and telephone bills.
+
+--------------------------------------------------------------------------------
+SECTION 9 — RENEWAL, PORTABILITY, CUMULATIVE BONUS & GRIEVANCES
+--------------------------------------------------------------------------------
+9.1 Cumulative Bonus (No Claim Bonus - NCB):
+    - The Sum Insured shall be augmented by 10% for every consecutive claim-free policy year, up to an aggregate maximum ceiling of 100% of the basic Sum Insured.
+    - In the event of an admissible claim in any year, the accrued Cumulative Bonus will be reduced by 10% on renewal, but the base Sum Insured will never be diminished.
+
+9.2 Free Look Period:
+    - Insured has 30 days for policies purchased electronically / online (or 15 days for physical policies) from receipt of policy wording to review terms.
+    - Full refund of premium is granted after deduction of proportionate risk premium for covered days, medical test costs, and stamp duty.
+
+9.3 Grace Period & Renewal Continuity:
+    - A grace period of 30 calendar days is allowed for policy renewal payment.
+    - Continuity benefits regarding waiting periods and cumulative bonuses are preserved, though illness contracted during the renewal gap is not indemnified.
+
+9.4 IRDAI Ombudsman & Dispute Resolution:
+    - If a grievance remains unaddressed for 15 days or resolution is unsatisfactory, the Insured can lodge a formal complaint with the Insurance Ombudsman under the Insurance Ombudsman Rules 2017.
+================================================================================

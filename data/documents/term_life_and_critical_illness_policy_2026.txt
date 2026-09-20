@@ -1,0 +1,89 @@
+================================================================================
+INSUREGPT PURE TERM LIFE & 36 CRITICAL ILLNESS BENEFIT POLICY WORDING 2026
+Policy Document ID: POL-LIF-2026-V1 | Revision: 2026.1 | Effective: 2026-01-01
+Underwriter: Apex Sovereign Life Assurance Ltd. (IRDAI Regn. No: 118/LIF/2026)
+================================================================================
+
+PREAMBLE & CONTRACTUAL BASIS
+This Policy contract is established between Apex Sovereign Life Assurance Ltd. (the "Company") and the Policyholder named in the Policy Schedule. It is based upon the statements, warranties, medical representations, and declarations made in the Proposal Form, Personal Medical History Statement, and any medical examination tests conducted. Upon regular payment of premiums due, the Company guarantees to pay the Death Benefit and rider benefits subject to the terms and stipulations contained herein.
+
+--------------------------------------------------------------------------------
+SECTION 1 — PURE TERM DEATH BENEFIT & SETTLEMENT MODES
+--------------------------------------------------------------------------------
+1.1 Basic Death Benefit:
+    - Upon the unfortunate death of the Life Assured during the policy term while the policy is in full force, the Company shall pay the Sum Assured on Death to the registered Nominee(s) or legal heirs.
+    - Sum Assured on Death is defined as the highest of:
+      (a) 10 times the annualized premium; or
+      (b) 105% of all cumulative premiums paid as of the date of demise; or
+      (c) The absolute basic Sum Assured chosen at policy inception.
+
+1.2 Benefit Settlement Options:
+    The Policyholder may select one of the following settlement options at inception or the Nominee may choose at claim stage:
+    - Option A (Lump-Sum Payout): 100% of the Sum Assured paid in a single electronic transfer.
+    - Option B (Lump-Sum plus Monthly Income): 50% paid immediately as a lump-sum, and the remaining 50% disbursed as monthly income over 120 months (10 years) with a 0.5% compounding monthly rate.
+    - Option C (Increasing Monthly Income): Entire Sum Assured converted into an escalating monthly income stream increasing at 10% simple interest per annum for 10 years to combat inflation.
+
+1.3 Terminal Illness Accelerated Payout Benefit:
+    - If the Life Assured is diagnosed with a Terminal Illness (defined as an advanced, incurable clinical condition where life expectancy is certified by two independent medical specialists to be less than 6 months), the Company accelerates and disburses 100% of the basic Sum Assured immediately (up to a ceiling of ₹2,00,00,000).
+    - Upon payment of the accelerated terminal illness benefit, the basic policy coverage terminates without further premium liability.
+
+--------------------------------------------------------------------------------
+SECTION 2 — ACCELERATED 36 CRITICAL ILLNESS RIDER BENEFIT
+--------------------------------------------------------------------------------
+2.1 Operative Scope:
+    Upon the first verified clinical diagnosis of any of the 36 listed Critical Illnesses, the Company pays the full Critical Illness Sum Assured as a tax-exempt lump sum, provided the Life Assured survives for at least 14 days following diagnosis (Survival Period).
+
+2.2 Defined Critical Illness Categories and Clinical Criteria:
+    1. Cancer of Specified Severity: Malignant tumor characterized by uncontrolled growth and spread of malignant cells with invasion of tissue. Certified by positive histopathology.
+    2. Myocardial Infarction (First Heart Attack): Death of heart muscle due to inadequate blood supply. Evidence required: history of typical chest symptoms, new ECG changes, and elevated cardiac enzymes (Troponin I/T or CK-MB).
+    3. Open Chest CABG: Open-heart surgery to correct coronary artery narrowing using bypass grafts.
+    4. Open Heart Replacement / Repair of Heart Valves: Surgery to replace or repair diseased heart valves.
+    5. Stroke Resulting in Permanent Neurological Deficit: Cerebrovascular incident resulting in permanent neurological sequelae persisting for at least 3 months.
+    6. End-Stage Renal Failure: Chronic irreversible failure of both kidneys requiring ongoing regular peritoneal dialysis or hemodialysis.
+    7. Major Organ / Bone Marrow Transplant: Human to human transplant of heart, lung, liver, kidney, pancreas, or human bone marrow.
+    8. Permanent Paralysis of Limbs: Complete and irreversible loss of use of two or more limbs as a result of injury or disease.
+    9. Motor Neurone Disease with Permanent Symptoms: Confirmed ALS or progressive muscular atrophy.
+    10. Multiple Sclerosis with Persisting Symptoms: Definite diagnosis by a Consultant Neurologist with persisting functional impairment.
+    11. Benign Brain Tumor: Life-threatening non-cancerous brain tumor producing neurological deficits.
+    12. Blindness: Total, permanent, and irreversible loss of all sight in both eyes.
+    13. End-Stage Liver Failure: Irreversible liver failure with permanent jaundice, ascites, and hepatic encephalopathy.
+    14. Coma of Specified Severity: State of unconsciousness with no reaction to external stimuli lasting at least 96 hours with GCS ≤ 4.
+    15. Third-Degree Burns: Full thickness skin burns covering at least 20% of the total body surface area.
+    16. Major Head Trauma: Accidental head injury causing permanent neurological deficit lasting at least 3 months.
+    17. Alzheimer's Disease / Severe Dementia: Clinically diagnosed deterioration of intellectual and cognitive function requiring 24-hour supervision.
+    18. Parkinson's Disease: Progressive degenerative disease of the central nervous system with tremor, rigidity, and postural instability.
+    [Additional covered illnesses 19 through 36: Aplastic Anemia, Bacterial Meningitis, Encephalitis, End-Stage Lung Disease, Loss of Limbs, Loss of Speech, Deafness, Primary Pulmonary Hypertension, Systemic Lupus Erythematosus, Fulminant Hepatitis, Medullary Cystic Disease, Cardiomyopathy, Severe Rheumatoid Arthritis, Muscular Dystrophy, Creutzfeldt-Jakob Disease, Scleroderma, Progressive Sclerosing Cholangitis, Brain Surgery].
+
+--------------------------------------------------------------------------------
+SECTION 3 — WAIVER OF PREMIUM & ACCIDENTAL DISABILITY RIDERS
+--------------------------------------------------------------------------------
+3.1 Accidental Permanent Total Disability (PTD):
+    - In the event of permanent total disablement (such as loss of both hands, both feet, or total loss of sight in both eyes) caused by an accident, all future premiums payable under the policy are waived in full. The life cover remains intact until maturity.
+
+3.2 Waiver of Premium on Critical Illness (WOP-CI):
+    - Upon admissible diagnosis of any of the 36 critical illnesses, all future premiums for the remainder of the policy term are completely waived, while maintaining full Death Benefit coverage.
+
+--------------------------------------------------------------------------------
+SECTION 4 — STATUTORY SECTION 45 MORATORIUM & SUICIDE CLAUSES
+--------------------------------------------------------------------------------
+4.1 Section 45 of the Insurance Act 1938 (Indisputability Moratorium):
+    - No policy of life insurance shall be called in question on any ground whatsoever (including misstatement, non-disclosure of material facts, or fraudulent misrepresentation) after the expiry of 3 years from the date of issuance of the policy, date of commencement of risk, or date of revival of the policy, whichever is latest.
+    - After completion of 3 continuous policy years, the Company is legally precluded from repudiating any death claim.
+
+4.2 Suicide Exclusion Clause:
+    - If the Life Assured commits suicide (whether sane or insane) within 12 months from the date of commencement of risk or within 12 months from the date of policy revival:
+      (a) If suicide occurs within 12 months of inception: The policy is void, and the Company shall refund at least 80% of total premiums paid to the Nominee.
+      (b) If suicide occurs within 12 months of revival: The Company pays an amount which is higher of 80% of premiums paid or the surrender value.
+      (c) If suicide occurs after 12 continuous months of policy risk: Full Death Benefit is payable in full without restriction.
+
+--------------------------------------------------------------------------------
+SECTION 5 — UNDERWRITING GUIDELINES, SMOKER CLASSIFICATION & NOMINATION
+--------------------------------------------------------------------------------
+5.1 Tobacco & Smoker Underwriting Classification:
+    - Smoker Rates apply to individuals who have consumed cigarettes, cigars, bidi, vaping liquids, nicotine patches, or chewing tobacco in the past 36 months.
+    - Non-Smokers must test negative for Urine Cotinine during the mandatory tele-medical or diagnostic medical examination.
+
+5.2 Nomination & Title under Section 39 of Insurance Act:
+    - The Policyholder must appoint a primary Nominee and may designate alternate contingent nominees.
+    - Beneficial Nominee: Under Section 39(7), nomination in favor of a spouse, children, or parents creates a beneficial interest in the nominee, superseding creditors' claims.
+================================================================================

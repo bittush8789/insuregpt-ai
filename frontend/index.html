@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InsureGPT — Insurance Policy & Claims Assistant</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Markdown parser for rich formatted responses -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Overlay for Mobile -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Left Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <!-- Sidebar Header -->
+      <div class="sidebar-header">
+        <div class="brand">
+          <div class="brand-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">InsureGPT</span>
+            <span class="brand-tag">Policy Assistant</span>
+          </div>
+        </div>
+        <button class="icon-btn close-sidebar-btn" id="closeSidebarBtn" title="Close sidebar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- New Chat Button -->
+      <div class="sidebar-action">
+        <button class="new-chat-btn" id="newChatBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          <span>Start New Question</span>
+        </button>
+      </div>
+
+      <!-- Conversation History Groups -->
+      <div class="sidebar-history" id="sidebarHistory">
+        <div class="history-section" id="historyToday">
+          <div class="history-section-title">Today's Inquiries</div>
+          <div class="history-list" id="listToday"></div>
+        </div>
+        <div class="history-section" id="historyYesterday">
+          <div class="history-section-title">Yesterday</div>
+          <div class="history-list" id="listYesterday"></div>
+        </div>
+        <div class="history-section" id="historyPrevious">
+          <div class="history-section-title">Previous Chats</div>
+          <div class="history-list" id="listPrevious"></div>
+        </div>
+      </div>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <div class="user-profile">
+          <div class="user-avatar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="user-info">
+            <span class="user-name">Policyholder</span>
+            <span class="user-role">Member Guidance</span>
+          </div>
+        </div>
+        <div class="footer-actions">
+          <button class="icon-btn" id="themeToggleBtn" title="Toggle Light / Dark Mode">
+            <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Chat Container -->
+    <main class="main-content">
+      <!-- Top Navigation Bar -->
+      <header class="top-nav">
+        <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" title="Open Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+        <div class="current-chat-title-group">
+          <div class="current-chat-title" id="currentChatTitle">Insurance Policy Advisor</div>
+          <span class="current-chat-subtitle">Verified decision support for policyholders & claimants</span>
+        </div>
+        <div class="top-nav-right">
+          <div class="docs-count-badge" id="docsCountBadge" title="Active Insurance Policies: Health, Motor, Life, Property, Travel, and Claims SOP">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+            <span>6 Policies Active</span>
+          </div>
+          <div class="model-badge" title="All answers are verified against official policy documents">
+            <span class="status-indicator"></span>
+            <span>Policy Knowledge Base Connected</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Chat Scroll Area -->
+      <div class="chat-viewport" id="chatViewport">
+        <!-- Hero / Welcome View (Visible when no messages exist) -->
+        <div class="hero-container" id="heroContainer">
+          <div class="hero-shield">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <h1 class="hero-title">How can I help with your insurance today?</h1>
+          <p class="hero-subtitle">
+            Get instant, clear answers about your <strong>health, car, term life, home, and travel policies</strong>. I explain coverage limits, claim submission steps, and waiting periods in simple, everyday language.
+          </p>
+
+          <!-- Prompt Starters Cards for Non-Tech Users -->
+          <div class="suggestion-grid">
+            <button class="suggestion-card" data-prompt="What expenses are covered during hospital inpatient admission?">
+              <div class="suggestion-icon">🏥</div>
+              <div class="suggestion-title">Hospital Stay & Medical Care</div>
+              <div class="suggestion-desc">Room rent limits, ICU charges, medicines, and pre/post hospital costs</div>
+            </button>
+            <button class="suggestion-card" data-prompt="What is the step-by-step checklist of documents required to file a reimbursement claim?">
+              <div class="suggestion-icon">📄</div>
+              <div class="suggestion-title">How to File a Claim</div>
+              <div class="suggestion-desc">Complete document checklist, submission deadlines, and reimbursement forms</div>
+            </button>
+            <button class="suggestion-card" data-prompt="What is the waiting period for pre-existing diseases like diabetes, hypertension, or surgery?">
+              <div class="suggestion-icon">⏳</div>
+              <div class="suggestion-title">Waiting Periods & Moratoriums</div>
+              <div class="suggestion-desc">Initial 30 days, 2-year specific ailments, and 36-month pre-existing terms</div>
+            </button>
+            <button class="suggestion-card" data-prompt="What does private car motor insurance cover and what is zero depreciation?">
+              <div class="suggestion-icon">🚗</div>
+              <div class="suggestion-title">Car & Vehicle Insurance</div>
+              <div class="suggestion-desc">Own Damage, third-party liability, zero-depreciation, and repair rules</div>
+            </button>
+            <button class="suggestion-card" data-prompt="Which 36 critical illnesses are covered under the term life policy and what are the payout rules?">
+              <div class="suggestion-icon">🛡️</div>
+              <div class="suggestion-title">Term Life & Critical Illness</div>
+              <div class="suggestion-desc">Heart attack, cancer, stroke, terminal illness acceleration, and suicide clause</div>
+            </button>
+            <button class="suggestion-card" data-prompt="What emergency medical expenses and baggage delay losses are covered during overseas travel?">
+              <div class="suggestion-icon">✈️</div>
+              <div class="suggestion-title">Overseas Travel Coverage</div>
+              <div class="suggestion-desc">Medical emergencies abroad, lost passport, trip cancellation, and flight delays</div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Messages Thread -->
+        <div class="messages-container" id="messagesContainer"></div>
+      </div>
+
+      <!-- Quick Topics Strip for Non-Tech Users -->
+      <div class="quick-topics-container" id="quickTopicsContainer">
+        <div class="quick-topics-label">Quick Topics:</div>
+        <div class="quick-topics-scroll">
+          <button type="button" class="quick-chip" data-prompt="What is covered during hospital inpatient admission?">🏥 Hospital Claims</button>
+          <button type="button" class="quick-chip" data-prompt="What is the waiting period for pre-existing diseases like diabetes?">⏳ Waiting Periods</button>
+          <button type="button" class="quick-chip" data-prompt="What documents are required to file an insurance reimbursement claim?">📄 Claim Checklist</button>
+          <button type="button" class="quick-chip" data-prompt="What does private car motor insurance cover and what is zero dep?">🚗 Car Insurance</button>
+          <button type="button" class="quick-chip" data-prompt="What critical illnesses are covered under the term life policy?">🛡️ Critical Illness</button>
+          <button type="button" class="quick-chip" data-prompt="What emergency medical coverage applies during overseas international travel?">✈️ Travel Coverage</button>
+        </div>
+      </div>
+
+      <!-- Bottom Chat Composer -->
+      <footer class="composer-container">
+        <div class="composer-inner">
+          <form class="composer-form" id="composerForm">
+            <!-- Hidden File Input for Policy Ingestion -->
+            <input type="file" id="fileUploadInput" accept=".pdf,.docx,.txt,.csv" style="display: none;">
+            
+            <!-- Attachment Button -->
+            <button type="button" class="composer-action-btn" id="attachBtn" title="Attach your insurance policy document (.pdf, .docx, .txt)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"></path>
+              </svg>
+            </button>
+
+            <!-- Auto-resizing Input -->
+            <textarea 
+              id="messageInput" 
+              class="composer-textarea" 
+              placeholder="Ask any question about your policy, claim steps, or coverage..." 
+              rows="1"
+              maxlength="4000"
+            ></textarea>
+
+            <!-- Send / Stop Button -->
+            <button type="submit" class="composer-send-btn" id="sendBtn" disabled title="Send question">
+              <svg class="send-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              <svg class="stop-icon" viewBox="0 0 24 24" fill="currentColor">
+                <rect x="6" y="6" width="12" height="12" rx="2"></rect>
+              </svg>
+            </button>
+          </form>
+          <div class="composer-footnote">
+            InsureGPT helps policyholders understand insurance terms and claims procedures easily. Final claim adjudications are made by your authorized insurance provider.
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
